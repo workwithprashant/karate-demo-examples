@@ -12,3 +12,7 @@ This is an example of executing Karate tests using Dry Run option
 ### Dry Run (Custom Report)
 * Execute `mvn clean test -Ddryrun=true` to generate dry run report without performing the tests
 <br> **Note**: This will generate Karate Report at `target\karate-reports\karate-summary.html` along with custom report using thymeleaf template at `target\karate-reports\dryrun.scenarios.html`
+
+<br>
+
+#### _For more information: [How to create custom HTML reports?](https://stackoverflow.com/questions/66770179/how-to-add-an-option-to-cucumber-report-to-remove-scenarios-that-have-a-certain/66773839#66773839)_
